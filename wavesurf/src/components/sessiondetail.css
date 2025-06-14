@@ -1,0 +1,60 @@
+.session-detail-view {
+  background: linear-gradient(130deg, #e1f5fe 70%, #fffde4 130%);
+  border-radius: 15px;
+  margin: 45px auto 20px auto;
+  box-shadow: 0 4px 24px 0 #7ecbc725;
+  padding: 34px 32px 20px 32px;
+  max-width: 540px;
+}
+.detail-header h2 {
+  margin: 0 0 2px 0;
+  color: #00897B;
+}
+.detail-board {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #388e91;
+}
+.detail-date {
+  font-size: 1.07em;
+  color: #7288a6;
+  margin-bottom: 15px;
+}
+.detail-info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 30px;
+  margin-bottom: 16px;
+}
+.detail-item { font-size: 1.08em; color: #05445E; }
+.detail-icon { font-size: 1.4em; margin-right: 5px; }
+.detail-label { font-weight: 500; color: #007790; }
+.detail-notes {
+  padding: 10px 0 10px 5px;
+  font-size: 1.08em;
+  color: #1d696e;
+  background: #f8ffe2;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+.notes-empty {
+  color: #9eb9b8;
+  font-style: italic;
+}
+.detail-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+.btn-edit {
+  background: #4FC3F7;
+}
+.btn-delete {
+  background: #d23c29;
+  color: #fff;
+}
+.btn-back {
+  background: #e0edff;
+  color: #0471a6;
+  margin-bottom: 8px;
+}

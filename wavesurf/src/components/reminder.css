@@ -1,0 +1,30 @@
+.reminder-banner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 24px auto 6px auto;
+  padding: 13px 26px;
+  border-radius: 12px;
+  font-size: 1.15em;
+  font-weight: 500;
+  color: #0f5363;
+  background: linear-gradient(100deg, #b2ebf2 65%, #ffe082 120%);
+  box-shadow: 0 2px 12px #3fbcc755;
+  max-width: 520px;
+  justify-content: center;
+}
+.ocean-gradient {
+  background: linear-gradient(96deg, #e1f5fe 58%, #b2ebf2 180%);
+}
+.btn-remind {
+  background: #00897B;
+  color: #fff;
+  font-size: 1em;
+  padding: 6px 18px;
+  border-radius: 7px;
+  margin-left: 15px;
+  border: none;
+}
+.btn-remind:hover {
+  background: #4FC3F7;
+}
